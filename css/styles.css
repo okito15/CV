@@ -666,7 +666,7 @@ progress {
 }
 .row > * {
   flex-shrink: 0;
-  width: 100%;
+  width: 50%;
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
@@ -7915,7 +7915,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50px !important;
+  border-radius: 100px !important;
 }
 
 .rounded-pill {
@@ -11408,4 +11408,25 @@ ol li{
 
 a{
   text-decoration: none;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+  display: block;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
