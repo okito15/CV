@@ -1,2 +1,2 @@
 # Okan Seid's CV
-https://okito15.github.io/CV
+https://okan-seid.github.io/CV
